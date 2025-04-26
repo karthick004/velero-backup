@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-1'
-        BUCKET_NAME = 'your-velero-bucket'
+        BUCKET_NAME = 'aishu-backup'
         CLUSTER_NAME = 'demo-cluster'
     }
 

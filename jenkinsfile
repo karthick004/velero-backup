@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION = 'your-region'
+        AWS_REGION = 'us-east-1'
         BUCKET_NAME = 'your-velero-bucket'
-        CLUSTER_NAME = 'your-cluster'
+        CLUSTER_NAME = 'demo-cluster'
     }
 
     stages {

@@ -7,7 +7,7 @@ variable "region" {
 }
 
 variable "cluster_name" {
-  default = "k8s-cluster" # Replace with your real cluster name
+  default = "demo-cluster" # Replace with your real cluster name
 }
 
 data "aws_eks_cluster" "cluster" {
